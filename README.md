@@ -4,7 +4,9 @@
 
 This project is a `java` port of the [@sercaneraslan](https://github.com/sercaneraslan)'s [haller.js](https://github.com/sercaneraslan/haller.js/blob/master/haller.js).
 
-Provides `Turkish Noun Case` converters
+When speaking to someone, we have to add some extensions to the name. These extensions changes according to vowels, ending with non-vowel characters etc.
+
+Project provides those turkish noun case conversions for using in forms, mailings.
 
 for detail: [Turkish Grammar](https://en.wikipedia.org/wiki/Turkish_grammar)
 
