@@ -6,7 +6,7 @@ This project is a `java` port of the [@sercaneraslan](https://github.com/sercane
 
 When speaking to someone, we have to add some extensions to the name. These extensions changes according to vowels, ending with non-vowel characters etc.
 
-Project provides those turkish noun case conversions for using in forms, mailings.
+Provides turkish noun case conversions for using in forms, mailings.
 
 for detail: [Turkish Grammar](https://en.wikipedia.org/wiki/Turkish_grammar)
 
