@@ -8,13 +8,7 @@ import static com.github.veysiertekin.turkish_noun_cases.util.TurkishGrammarUtil
  * Tamlayan eki (-(n)in)
  */
 public class GenitiveCase implements TurkishNounCase {
-    private String name;
-
-    public GenitiveCase(String name) {
-        this.name = name;
-    }
-
-    public String combineWithSuffix() {
+    public String combineWithSuffix(String name) {
         String lowerName = name.toLowerCase(TURKISH_LOCALE);
         String addition = definiteAccusativeCaseAddition(lowerName);
         if (isLastCharIsVowel(lowerName)) {

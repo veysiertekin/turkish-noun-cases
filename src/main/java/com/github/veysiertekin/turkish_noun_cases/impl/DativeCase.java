@@ -8,13 +8,7 @@ import static com.github.veysiertekin.turkish_noun_cases.util.TurkishGrammarUtil
  * Yonelme hali (-(y)e)
  */
 public class DativeCase implements TurkishNounCase {
-    private String name;
-
-    public DativeCase(String name) {
-        this.name = name;
-    }
-
-    public String combineWithSuffix() {
+    public String combineWithSuffix(String name) {
         String lowerName = name.toLowerCase(TURKISH_LOCALE);
         String addition = locativeCaseAddition(lowerName);
         if (isLastCharIsVowel(lowerName)) {

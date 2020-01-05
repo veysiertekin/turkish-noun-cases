@@ -16,5 +16,5 @@ package com.github.veysiertekin.turkish_noun_cases;
  * Genitive	            tamlayan ("compounding") eki	        -(n)in	evin
  */
 public interface TurkishNounCase {
-    String combineWithSuffix();
+    String combineWithSuffix(String name);
 }
